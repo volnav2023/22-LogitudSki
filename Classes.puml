@@ -1,0 +1,42 @@
+@startuml
+
+class Participant {
+nom
+prenom
+dateNaissance
+..
+email
+photo
+}
+
+class Categorie {
+nom
+..
+}
+
+class Profil {
+nom
+..
+}
+
+class Passage {
+..
+numeroDePassage
+temps
+}
+
+class Epreuve {
+lieu
+date
+..
+}
+
+Categorie "0" o-- "many" Participant : contains >
+Profil "0" o-- "many" Participant : contains >
+Epreuve "0" *-- "many" Passage : contains >
+Epreuve "many" -- "many" Participant : contains >
+Participant "0" *-- "many" Passage : contains >
+
+
+
+@enduml
