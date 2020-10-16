@@ -6,8 +6,6 @@ use App\Epreuve;
 use DateTime;
 use Exception;
 
-//require 'C:\wamp64\www\22-LogitudSki\vendor\autoload.php';
-
 it(
     'Classe correctement instanciée',
     function () {
@@ -25,3 +23,11 @@ it(
         $epreuve = new Epreuve($lieu, $date);
     }
 )->throws(Exception::class,'Une épreuve');
+it(
+    'Date invalide !',
+    function () {
+        $lieu = 'Vesoul';
+        $date = new DateTime('1962-11-33');
+        $epreuve = new Epreuve($lieu, $date);
+    }
+)->throws(Exception::class,'DateTime::__construct(): Failed to parse time string (1962-11-33) at position 9 (3): Unexpected character');
