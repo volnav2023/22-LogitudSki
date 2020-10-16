@@ -1,13 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2a99e0e-fd15-48d8-b870-dea191191064" name="Default Changelist" comment="" />
+    <list default="true" id="a2a99e0e-fd15-48d8-b870-dea191191064" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/phpunit.xml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Categorie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Epreuve.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Participant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Passage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Profil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/CategorieTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/EpreuveTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ParticipantTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/PassageTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ProfilTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/22-LogitudSki.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/22-LogitudSki.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/phpunit-watcher.yml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit-watcher.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -17,7 +51,69 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-coverage" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-init" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1idN79U5tdRMj8MUBYRBx8yMVZm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,6 +122,7 @@
     <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -37,6 +134,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\22-LogitudSki\tests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\22-LogitudSki" />
       <recent name="C:\wamp64\www\22-LogitudSki\src" />
@@ -52,28 +152,72 @@
       <updated>1602233338620</updated>
       <workItem from="1602233339684" duration="2960000" />
       <workItem from="1602575958206" duration="8529000" />
+      <workItem from="1602600723410" duration="1678000" />
+      <workItem from="1602685976700" duration="2772000" />
+      <workItem from="1602762940074" duration="20987000" />
     </task>
+    <task id="LOCAL-00001" summary="phpunit-watcher installed and ok">
+      <created>1602600781016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602600781016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="phpunit-watcher installed and ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="phpunit-watcher installed and ok" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2175" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602599833378">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2175" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602599833378" />
+    <state x="-2310" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602858076137">
+      <screen x="-3000" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-2310" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602858076137" />
     <state x="2660" y="251" key="FileChooserDialogImpl" timestamp="1602579548408">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2660" y="251" key="FileChooserDialogImpl/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602579548408" />
-    <state x="2714" y="448" key="NewPhpFileDialog" timestamp="1602233358071">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="-2222" y="248" key="NewPhpClassDialog" timestamp="1602772623797">
+      <screen x="-3000" y="0" width="1920" height="1050" />
     </state>
+    <state x="-2222" y="248" key="NewPhpClassDialog/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602772623797" />
+    <state x="-2206" y="448" key="NewPhpFileDialog" timestamp="1602687120222">
+      <screen x="-3000" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-2206" y="448" key="NewPhpFileDialog/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602687120222" />
     <state x="2714" y="448" key="NewPhpFileDialog/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602233358071" />
     <state x="2381" y="170" key="SettingsEditor" timestamp="1602600689324">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="170" key="SettingsEditor/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602600689324" />
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2" timestamp="1602600889838">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602600889838" />
+    <state x="-2333" y="124" width="585" height="801" key="find.popup" timestamp="1602764955096">
+      <screen x="-3000" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-2333" y="124" width="585" height="801" key="find.popup/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602764955096" />
   </component>
 </project>

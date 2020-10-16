@@ -1,0 +1,22 @@
+{
+  "name": "david/22-logitud-ski",
+  "authors": [
+    {
+      "name": "volnav2023",
+      "email": "github@flechet.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/",
+      "Test\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "phpunit/phpunit": "^9.3.10",
+    "pestphp/pest": "^0.3.9"
+  },
+  "require": {}
+}
