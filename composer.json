@@ -18,5 +18,7 @@
     "phpunit/phpunit": "^9.3.10",
     "pestphp/pest": "^0.3.9"
   },
-  "require": {}
+  "require": {
+    "symfony/http-foundation": "^5.1"
+  }
 }
