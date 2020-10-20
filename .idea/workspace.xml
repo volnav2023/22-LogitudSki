@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2a99e0e-fd15-48d8-b870-dea191191064" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EpreuveController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/22-LogitudSki.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/22-LogitudSki.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modele.puml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Passage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Passage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/PassageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/PassageTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +105,11 @@
       <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
       <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
     </include_path>
   </component>
   <component name="ProjectId" id="1idN79U5tdRMj8MUBYRBx8yMVZm" />
@@ -151,7 +156,7 @@
       <workItem from="1602575958206" duration="8529000" />
       <workItem from="1602600723410" duration="1678000" />
       <workItem from="1602685976700" duration="2772000" />
-      <workItem from="1602762940074" duration="32029000" />
+      <workItem from="1602762940074" duration="50796000" />
     </task>
     <task id="LOCAL-00001" summary="phpunit-watcher installed and ok">
       <created>1602600781016</created>
@@ -174,7 +179,28 @@
       <option name="project" value="LOCAL" />
       <updated>1602873284920</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="21 tests ok sur les 6 classes">
+      <created>1603097009657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603097009657</updated>
+    </task>
+    <task id="LOCAL-00005" summary="21 tests ok sur les 6 classes">
+      <created>1603097117205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603097117205</updated>
+    </task>
+    <task id="LOCAL-00006" summary="21 tests ok sur les 6 classes">
+      <created>1603097204690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603097204690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +222,8 @@
     <MESSAGE value="phpunit-watcher installed and ok" />
     <MESSAGE value="15 tests ok sur les 4 classes" />
     <MESSAGE value="19 tests ok sur les 6 classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="19 tests ok sur les 6 classes" />
+    <MESSAGE value="21 tests ok sur les 6 classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="21 tests ok sur les 6 classes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2175" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602599833378">
@@ -215,24 +242,27 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2660" y="251" key="FileChooserDialogImpl/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602579548408" />
-    <state x="-2222" y="248" key="NewPhpClassDialog" timestamp="1602872573709">
-      <screen x="-3000" y="0" width="1920" height="1050" />
+    <state x="2698" y="248" key="NewPhpClassDialog" timestamp="1603117898157">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-2222" y="248" key="NewPhpClassDialog/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602872573709" />
-    <state x="-2206" y="448" key="NewPhpFileDialog" timestamp="1602687120222">
-      <screen x="-3000" y="0" width="1920" height="1050" />
+    <state x="2698" y="248" key="NewPhpClassDialog/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603097084750" />
+    <state x="2698" y="248" key="NewPhpClassDialog/0.0.1920.1050/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603117898157" />
+    <state x="2714" y="448" key="NewPhpFileDialog" timestamp="1603117559671">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-2206" y="448" key="NewPhpFileDialog/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602687120222" />
-    <state x="2714" y="448" key="NewPhpFileDialog/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602233358071" />
+    <state x="2714" y="448" key="NewPhpFileDialog/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603100530645" />
+    <state x="2714" y="448" key="NewPhpFileDialog/0.0.1920.1050/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603117559671" />
     <state x="2381" y="170" key="SettingsEditor" timestamp="1602600689324">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="170" key="SettingsEditor/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602600689324" />
-    <state x="-2448" y="258" key="Vcs.Push.Dialog.v2" timestamp="1602873292474">
-      <screen x="-3000" y="0" width="1920" height="1050" />
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603097209426">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-2448" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602873292474" />
-    <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602600889838" />
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603097209426" />
     <state x="-2333" y="124" width="585" height="801" key="find.popup" timestamp="1602764955096">
       <screen x="-3000" y="0" width="1920" height="1050" />
     </state>

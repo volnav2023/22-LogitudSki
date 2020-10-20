@@ -3,6 +3,7 @@
 namespace Tests;
 
 use App\Passage;
+use Carbon\Carbon;
 use DateTime;
 use Exception;
 
@@ -32,11 +33,11 @@ it(
     function () {
         $lieuEpreuve = 'Vesoul';
         $dateEpreuve = new DateTime('2020-12-25');
-        echo date_format($dateEpreuve, 'd-m-Y H:i:s');
+//        echo date_format($dateEpreuve, 'd-m-Y H:i:s') . '<br>';
         $nomParticipant = 'White';
         $prenomParticipant = '';
         $dateNaissParticipant = new DateTime('1962-11-01');
-        echo date_format($dateNaissParticipant, 'd-m-Y H:i:s');
+        echo date_format($dateNaissParticipant, 'd-m-Y H:i:s') . '<br>';
         $numPassage = 1;
         $passage = new Passage(
             $lieuEpreuve,
@@ -76,7 +77,9 @@ it(
         $dateEpreuve = new DateTime('2020-12-25');
         $nomParticipant = 'White';
         $prenomParticipant = 'Snow';
-        $dateNaissParticipant = new DateTime('1962-11-01');
+//        $dateNaissParticipant = new DateTime('1962-11-01');
+        $dateNaissParticipant=new Carbon('first day of November 1962');
+        echo date_format($dateNaissParticipant, 'd-m-Y H:i:s') . "\n";
         $numPassage = 3;
         $passage = new Passage(
             $lieuEpreuve,
