@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2a99e0e-fd15-48d8-b870-dea191191064" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/22-LogitudSki.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/22-LogitudSki.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EpreuveController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/EpreuveController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/EpreuveController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/EpreuveController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +108,8 @@
       <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
       <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
     </include_path>
   </component>
   <component name="ProjectId" id="1idN79U5tdRMj8MUBYRBx8yMVZm" />
@@ -154,7 +159,7 @@
       <workItem from="1602685976700" duration="2772000" />
       <workItem from="1602762940074" duration="52409000" />
       <workItem from="1603185274644" duration="334000" />
-      <workItem from="1603185774465" duration="3479000" />
+      <workItem from="1603185774465" duration="13631000" />
     </task>
     <task id="LOCAL-00001" summary="phpunit-watcher installed and ok">
       <created>1602600781016</created>
@@ -205,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603183545226</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2 routes fonctionnent, avant http foundation">
+      <created>1603194856042</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603194856042</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +241,8 @@
     <MESSAGE value="19 tests ok sur les 6 classes" />
     <MESSAGE value="21 tests ok sur les 6 classes" />
     <MESSAGE value="Une première route fonctionne !" />
-    <option name="LAST_COMMIT_MESSAGE" value="Une première route fonctionne !" />
+    <MESSAGE value="2 routes fonctionnent, avant http foundation" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 routes fonctionnent, avant http foundation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2175" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602599833378">
@@ -248,12 +261,12 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2660" y="251" key="FileChooserDialogImpl/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602579548408" />
-    <state x="2698" y="248" key="NewPhpClassDialog" timestamp="1603117898157">
+    <state x="2698" y="248" key="NewPhpClassDialog" timestamp="1603199604026">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-2222" y="248" key="NewPhpClassDialog/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602872573709" />
     <state x="2698" y="248" key="NewPhpClassDialog/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603097084750" />
-    <state x="2698" y="248" key="NewPhpClassDialog/0.0.1920.1050/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603117898157" />
+    <state x="2698" y="248" key="NewPhpClassDialog/0.0.1920.1050/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603199604026" />
     <state x="2714" y="448" key="NewPhpFileDialog" timestamp="1603117559671">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -264,12 +277,12 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="170" key="SettingsEditor/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602600689324" />
-    <state x="2472" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603183551714">
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603194859287">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-2448" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602873292474" />
     <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603097209426" />
-    <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603183551714" />
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603194859287" />
     <state x="-2333" y="124" width="585" height="801" key="find.popup" timestamp="1602764955096">
       <screen x="-3000" y="0" width="1920" height="1050" />
     </state>

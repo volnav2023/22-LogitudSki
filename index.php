@@ -3,6 +3,7 @@
 require 'vendor\autoload.php';
 
 use App\Controllers\EpreuveController;
+use Symfony\Component\HttpFoundation\Request;
 
 $dispatcher = FastRoute\simpleDispatcher(
     function (FastRoute\RouteCollector $r) {
@@ -14,21 +15,10 @@ $dispatcher = FastRoute\simpleDispatcher(
     }
 );
 
-// Fetch method and URI from somewhere
-$httpMethod = $_SERVER['REQUEST_METHOD'];
-$uri = $_SERVER['REQUEST_URI'];
+$request = Request::createFromGlobals();
 
-// Strip query string (?foo=bar) and decode URI
-if (false !== $pos = strpos($uri, '?')) {
-    $uri = substr($uri, 0, $pos);
-}
+$routeInfo = $dispatcher->dispatch($request->getMethod(), $request->getPathInfo());
 
-$uri = rawurldecode($uri);
-//dump($httpMethod);
-//dump($uri);
-
-$routeInfo = $dispatcher->dispatch($httpMethod, $uri);
-//dump('$routeInfo : ',$routeInfo);
 switch ($routeInfo[0]) {
     case FastRoute\Dispatcher::NOT_FOUND:
         dump('ici le 404 !');
@@ -42,12 +32,8 @@ switch ($routeInfo[0]) {
     case FastRoute\Dispatcher::FOUND:
         $handler = $routeInfo[1];
         $vars = $routeInfo[2];
-//        dump('($routeInfo : ',$routeInfo);
-//        dump('$handler,$vars : ',$handler,$vars);
-//        dump('$handler,$vars[1] : ',$handler,$vars[1]);
-//        dump('$handler,$vars[2] : ',$handler,$vars[2]);
-
-        call_user_func($handler, $vars);
+        $request->query->add($routeInfo[2]);
+        call_user_func($handler, $request);
         break;
     default:
         throw new Exception('Erreur de routage');
