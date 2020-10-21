@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2a99e0e-fd15-48d8-b870-dea191191064" name="Default Changelist" comment="" />
+    <list default="true" id="a2a99e0e-fd15-48d8-b870-dea191191064" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +153,7 @@
       <workItem from="1602685976700" duration="2772000" />
       <workItem from="1602762940074" duration="52409000" />
       <workItem from="1603185274644" duration="334000" />
-      <workItem from="1603185774465" duration="13956000" />
+      <workItem from="1603185774465" duration="14829000" />
     </task>
     <task id="LOCAL-00001" summary="phpunit-watcher installed and ok">
       <created>1602600781016</created>
@@ -216,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603205615374</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="http foundation intégré et fonctionne et nettoyé !">
+      <created>1603205930245</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603205930245</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +251,8 @@
     <MESSAGE value="Une première route fonctionne !" />
     <MESSAGE value="2 routes fonctionnent, avant http foundation" />
     <MESSAGE value="http foundation intégré et fonctionne !" />
-    <option name="LAST_COMMIT_MESSAGE" value="http foundation intégré et fonctionne !" />
+    <MESSAGE value="http foundation intégré et fonctionne et nettoyé !" />
+    <option name="LAST_COMMIT_MESSAGE" value="http foundation intégré et fonctionne et nettoyé !" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2175" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602599833378">
@@ -277,12 +287,12 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="170" key="SettingsEditor/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602600689324" />
-    <state x="2472" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603205619672">
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603205932896">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-2448" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602873292474" />
     <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603097209426" />
-    <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603205619672" />
+    <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603205932896" />
     <state x="-2333" y="124" width="585" height="801" key="find.popup" timestamp="1602764955096">
       <screen x="-3000" y="0" width="1920" height="1050" />
     </state>
