@@ -1,0 +1,58 @@
+@startuml
+
+class Participant {
+nom
+prenom
+dateNaissance
+..
+email
+photo
+}
+
+class Categorie {
+nom
+..
+}
+
+class Profil {
+nom
+..
+}
+
+class Participation {
+lieuEpreuve
+dateEpreuve
+nomParticipant
+prenomParticipant
+dateNaissanceParticipant
+..
+nomCategorie
+}
+
+class Passage {
+lieuEpreuve
+dateEpreuve
+nomParticipant
+prenomParticipant
+dateNaissanceParticipant
+numeroDePassage
+..
+temps
+}
+
+class Epreuve {
+lieu
+date
+..
+}
+
+Categorie "1" o-- "0-n" Participation : is made under <
+Profil "1" o-- "0-n" Participant : is the profile of >
+Epreuve "1" *-- "0-n" Passage : belongs to <
+Epreuve "1" -- "0-n" Participation : belongs to <
+Participation "0-n" -- "1" Participant : has made <
+Participant "1" *-- "0-n" Passage : has made >
+
+
+
+@enduml
