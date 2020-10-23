@@ -4,7 +4,6 @@ namespace App\Controllers;
 
 use Symfony\Component\HttpFoundation\Request;
 
-
 class EpreuveController
 {
     public function epreuvesListe()
@@ -14,9 +13,12 @@ class EpreuveController
 
     public function participantsListe(Request $request)
     {
-        echo 'EpreuveController->participantsListe affiche la liste des participants pour l\'épreuves :';
-        dump($request->query->get('lieu'));
-        dump($request->query->get('date'));
-//        dump('$request : ',$request);
+        dump(
+            'EpreuveController->participantsListe affiche la liste des participants 
+            pour l\'épreuve : ' .
+            $request->query->get('lieu') . '  ' .
+            $request->query->get('date')
+        );
+//        dump('$request : ', $request);
     }
 }

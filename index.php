@@ -1,9 +1,11 @@
 <?php
 
 require 'vendor\autoload.php';
-
-use App\Controllers\EpreuveController;
 use Symfony\Component\HttpFoundation\Request;
+use App\Controllers\EpreuveController;
+USE App\Models\DbConnection;
+
+$dbh = new DbConnection();
 
 $dispatcher = FastRoute\simpleDispatcher(
     function (FastRoute\RouteCollector $r) {

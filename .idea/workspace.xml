@@ -20,8 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2a99e0e-fd15-48d8-b870-dea191191064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DatabaseCreationScript.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/DbConnection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Categorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/EpreuveController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/EpreuveController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Epreuve.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Epreuve.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Participant.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Participant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Passage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Passage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Profil.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +127,7 @@
     <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -132,11 +140,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\22-LogitudSki\src\Classes" />
       <recent name="C:\wamp64\www\22-LogitudSki\src\Controllers" />
       <recent name="C:\wamp64\www\22-LogitudSki" />
       <recent name="C:\wamp64\www\22-LogitudSki\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\22-LogitudSki" />
       <recent name="C:\wamp64\www\22-LogitudSki\tests" />
     </key>
   </component>
@@ -154,7 +164,7 @@
       <workItem from="1602685976700" duration="2772000" />
       <workItem from="1602762940074" duration="52409000" />
       <workItem from="1603185274644" duration="334000" />
-      <workItem from="1603185774465" duration="22254000" />
+      <workItem from="1603185774465" duration="29275000" />
     </task>
     <task id="LOCAL-00001" summary="phpunit-watcher installed and ok">
       <created>1602600781016</created>
@@ -240,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603446676381</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Data model optimized (removed Participation), sql dbase creation script completed and dbase created.">
+      <created>1603449601333</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603449601333</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +286,8 @@
     <MESSAGE value="http foundation intégré et fonctionne et nettoyé !" />
     <MESSAGE value="http foundation intégré et fonctionne et nettoyé, avant tableau data en code php !" />
     <MESSAGE value="Data model &quot;normalised&quot; for implementation in dbase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data model &quot;normalised&quot; for implementation in dbase" />
+    <MESSAGE value="Data model optimized (removed Participation), sql dbase creation script completed and dbase created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Data model optimized (removed Participation), sql dbase creation script completed and dbase created." />
   </component>
   <component name="WindowStateProjectService">
     <state x="-2492" y="241" width="1086" height="415" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603447989507">
@@ -298,9 +316,10 @@
     <state x="-2222" y="248" key="NewPhpClassDialog/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602872573709" />
     <state x="2698" y="248" key="NewPhpClassDialog/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603097084750" />
     <state x="2698" y="248" key="NewPhpClassDialog/0.0.1920.1050/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603199604026" />
-    <state x="2714" y="448" key="NewPhpFileDialog" timestamp="1603117559671">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="-2206" y="435" key="NewPhpFileDialog" timestamp="1603457845302">
+      <screen x="-3000" y="0" width="1920" height="1019" />
     </state>
+    <state x="-2206" y="435" key="NewPhpFileDialog/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1019@-3000.0.1920.1019" timestamp="1603457845302" />
     <state x="-2206" y="448" key="NewPhpFileDialog/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602687120222" />
     <state x="2714" y="448" key="NewPhpFileDialog/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603100530645" />
     <state x="2714" y="448" key="NewPhpFileDialog/0.0.1920.1050/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603117559671" />
@@ -308,10 +327,11 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="170" key="SettingsEditor/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602600689324" />
-    <state x="-2448" y="250" key="Vcs.Push.Dialog.v2" timestamp="1603446681917">
-      <screen x="-3000" y="0" width="1920" height="1019" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1603449604944">
+      <screen x="0" y="0" width="1920" height="1019" />
     </state>
     <state x="-2448" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1019@-3000.0.1920.1019" timestamp="1603446681917" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1019@0.0.1920.1019" timestamp="1603449604944" />
     <state x="-2448" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602873292474" />
     <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603097209426" />
     <state x="-2448" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1603262366955" />
