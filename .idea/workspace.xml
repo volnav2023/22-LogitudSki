@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,16 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2a99e0e-fd15-48d8-b870-dea191191064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Models/DbConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabasePopulationScript.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Dbase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataModelPhysicaOptimizedl.puml" beforeDir="false" afterPath="$PROJECT_DIR$/DataModelPhysicaOptimizedl.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseCreationScript.sql" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseCreationScript.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Categorie.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controllers/EpreuveController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/EpreuveController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Epreuve.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Epreuve.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Participant.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Participant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Passage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Passage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/DbConnection.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,8 +127,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -135,19 +141,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\22-LogitudSki" />
+      <recent name="C:\wamp64\www\22-LogitudSki\tests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\22-LogitudSki\src\Classes" />
       <recent name="C:\wamp64\www\22-LogitudSki\src\Controllers" />
       <recent name="C:\wamp64\www\22-LogitudSki" />
       <recent name="C:\wamp64\www\22-LogitudSki\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\22-LogitudSki" />
-      <recent name="C:\wamp64\www\22-LogitudSki\tests" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -164,7 +171,8 @@
       <workItem from="1602685976700" duration="2772000" />
       <workItem from="1602762940074" duration="52409000" />
       <workItem from="1603185274644" duration="334000" />
-      <workItem from="1603185774465" duration="29275000" />
+      <workItem from="1603185774465" duration="30100000" />
+      <workItem from="1603697878288" duration="13162000" />
     </task>
     <task id="LOCAL-00001" summary="phpunit-watcher installed and ok">
       <created>1602600781016</created>
@@ -257,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603449601333</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Pb with namespaces solved">
+      <created>1603465361387</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603465361387</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,13 +302,19 @@
     <MESSAGE value="http foundation intégré et fonctionne et nettoyé, avant tableau data en code php !" />
     <MESSAGE value="Data model &quot;normalised&quot; for implementation in dbase" />
     <MESSAGE value="Data model optimized (removed Participation), sql dbase creation script completed and dbase created." />
-    <option name="LAST_COMMIT_MESSAGE" value="Data model optimized (removed Participation), sql dbase creation script completed and dbase created." />
+    <MESSAGE value="Pb with namespaces solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pb with namespaces solved" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-2492" y="241" width="1086" height="415" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603447989507">
-      <screen x="-3000" y="0" width="1920" height="1019" />
+    <state x="2256" y="363" key="#SQL_Dialects" timestamp="1603701550777">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2256" y="363" key="#SQL_Dialects/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603701550777" />
+    <state x="2428" y="248" width="1086" height="526" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603701010265">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-2492" y="241" width="1086" height="415" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1019@0.0.1920.1019" timestamp="1603447989507" />
+    <state x="2428" y="248" width="1086" height="526" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603701010265" />
     <state x="2175" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602599833378">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -306,6 +327,10 @@
       <screen x="-3000" y="0" width="1920" height="1050" />
     </state>
     <state x="-2310" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602858076137" />
+    <state x="2627" y="369" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603705516953">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2627" y="369" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603705516953" />
     <state x="2660" y="251" key="FileChooserDialogImpl" timestamp="1602579548408">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -327,18 +352,26 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="170" key="SettingsEditor/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602600689324" />
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1603449604944">
-      <screen x="0" y="0" width="1920" height="1019" />
+    <state x="-2448" y="250" key="Vcs.Push.Dialog.v2" timestamp="1603465364983">
+      <screen x="-3000" y="0" width="1920" height="1019" />
     </state>
-    <state x="-2448" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1019@-3000.0.1920.1019" timestamp="1603446681917" />
+    <state x="-2448" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1019@-3000.0.1920.1019" timestamp="1603465364983" />
     <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1019@0.0.1920.1019" timestamp="1603449604944" />
     <state x="-2448" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602873292474" />
     <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603097209426" />
     <state x="-2448" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1603262366955" />
     <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603205932896" />
+    <state x="2676" y="345" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1603702470838">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2676" y="345" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603702470838" />
     <state x="-2333" y="124" width="585" height="801" key="find.popup" timestamp="1602764955096">
       <screen x="-3000" y="0" width="1920" height="1050" />
     </state>
     <state x="-2333" y="124" width="585" height="801" key="find.popup/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1602764955096" />
+    <state x="2543" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1603705508778">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="2543" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603705508778" />
   </component>
 </project>

@@ -2,10 +2,13 @@
 
 require 'vendor\autoload.php';
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Session;
 use App\Controllers\EpreuveController;
-USE App\Models\DbConnection;
+use App\Models\Dbase;
 
-$dbh = new DbConnection();
+$request = Request::createFromGlobals();
+$dbase = new Dbase();
+$dbase->open('localhost', '22-logitudski', 'root', '');
 
 $dispatcher = FastRoute\simpleDispatcher(
     function (FastRoute\RouteCollector $r) {
@@ -16,8 +19,6 @@ $dispatcher = FastRoute\simpleDispatcher(
         $r->addRoute('GET', '/22-LogitudSki/index/participants', ['App\ParticipantController', 'participantsListe']);
     }
 );
-
-$request = Request::createFromGlobals();
 
 $routeInfo = $dispatcher->dispatch($request->getMethod(), $request->getPathInfo());
 
@@ -35,7 +36,7 @@ switch ($routeInfo[0]) {
         $handler = $routeInfo[1];
         $vars = $routeInfo[2];
         $request->query->add($routeInfo[2]);
-        call_user_func($handler, $request);
+        call_user_func($handler, $request, $dbase);
         break;
     default:
         throw new Exception('Erreur de routage');

@@ -7,6 +7,8 @@ dateNaissance
 ..
 email
 photo
+..
+nomProfil
 }
 
 class Categorie {
