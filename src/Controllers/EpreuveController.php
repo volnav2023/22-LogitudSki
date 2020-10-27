@@ -16,9 +16,9 @@ class EpreuveController
 
         $donnees = $dbase->query($sql);
 
-        var_dump($donnees);
-        var_dump($donnees [0]['lieu']);
-        var_dump($donnees [0]['date']);
+//        var_dump($donnees);
+//        var_dump($donnees [0]['lieu']);
+//        var_dump($donnees [0]['date']);
 
 //        $reponse = new Response($twigtest->twig->render('epreuve.html.twig', ['rang1'=> $dbase->query($sql)[1]] ));
 //        $reponse->send();
