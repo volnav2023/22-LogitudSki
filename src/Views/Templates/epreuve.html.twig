@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+    {{ rang1.lieu }}
+    {{ rang1.date }}
+
+    {{ rang2.lieu }}
+    {{ rang2.date }}
+
+    <table>
+        <tr>
+            {% for key,value in donnees[0] %}
+                <td>{{key|e }}</td>
+            {% endfor %}
+        </tr>
+
+        {% for cat in donnees %}
+            <tr>
+                {% for cell in cat %}
+                    <td>{{ cell|e }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}

@@ -1,6 +1,7 @@
 <?php
 
-require 'vendor\autoload.php';
+require_once 'vendor\autoload.php';
+
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Session;
 use App\Controllers\EpreuveController;
@@ -37,6 +38,7 @@ switch ($routeInfo[0]) {
         $vars = $routeInfo[2];
         $request->query->add($routeInfo[2]);
         call_user_func($handler, $request, $dbase);
+//        $pompier->send();
         break;
     default:
         throw new Exception('Erreur de routage');
