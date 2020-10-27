@@ -7,20 +7,24 @@
     {{ rang2.lieu }}
     {{ rang2.date }}
 
-    <table>
-        <tr>
-            {% for key,value in donnees[0] %}
-                <td>{{key|e }}</td>
-            {% endfor %}
-        </tr>
+    {% for donnee in donnees %}
+        {{ dump(donnee) }}
+    {% endfor %}
 
-        {% for cat in donnees %}
-            <tr>
-                {% for cell in cat %}
-                    <td>{{ cell|e }}</td>
-                {% endfor %}
-            </tr>
-        {% endfor %}
-    </table>
+{#    <table>#}
+{#        <tr>#}
+{#            {% for key,value in donnees[0] %}#}
+{#                <td>{{key|e }}</td>#}
+{#            {% endfor %}#}
+{#        </tr>#}
+
+{#        {% for cat in donnees %}#}
+{#            <tr>#}
+{#                {% for cell in cat %}#}
+{#                    <td>{{ cell|e }}</td>#}
+{#                {% endfor %}#}
+{#            </tr>#}
+{#        {% endfor %}#}
+{#    </table>#}
 
 {% endblock %}

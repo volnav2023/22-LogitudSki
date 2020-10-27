@@ -14,13 +14,17 @@ class EpreuveController
 
         $twigtest = new ConfigTwig();
 
-        var_dump($donnees = $dbase->query($sql));
-        var_dump($donnees = $dbase->query($sql)[0]['lieu']);
-        var_dump($donnees = $dbase->query($sql)[0]['date']);
+        $donnees = $dbase->query($sql);
 
-        $reponse = new Response($twigtest->twig->render('epreuve.html.twig', ['rang1'=> $dbase->query($sql)[1]] ));
-        $reponse->send();
-        $reponse = new Response($twigtest->twig->render('epreuve.html.twig', ['rang2'=> $dbase->query($sql)[2]] ));
+        var_dump($donnees);
+        var_dump($donnees [0]['lieu']);
+        var_dump($donnees [0]['date']);
+
+//        $reponse = new Response($twigtest->twig->render('epreuve.html.twig', ['rang1'=> $dbase->query($sql)[1]] ));
+//        $reponse->send();
+//        $reponse = new Response($twigtest->twig->render('epreuve.html.twig', ['rang2'=> $dbase->query($sql)[2]] ));
+//        $reponse->send();
+        $reponse = new Response($twigtest->twig->render('epreuve.html.twig', ['donnees'=> $donnees] ));
         $reponse->send();
     }
 
