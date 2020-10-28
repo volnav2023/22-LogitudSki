@@ -1098,42 +1098,62 @@
       <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="351" parent="343" name="lieuEpreuve">
-      <Position>1</Position>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="352" parent="343" name="dateEpreuve">
-      <Position>2</Position>
-      <DataType>date|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="353" parent="343" name="nomParticipant">
-      <Position>3</Position>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="354" parent="343" name="prenomParticipant">
+    <column id="351" parent="342" name="email">
       <Position>4</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="355" parent="343" name="dateNaissanceParticipant">
+    <column id="352" parent="342" name="photo">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="353" parent="342" name="nomProfil">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="354" parent="343" name="lieuEpreuve">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="355" parent="343" name="dateEpreuve">
+      <Position>2</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="356" parent="343" name="nomParticipant">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="357" parent="343" name="prenomParticipant">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="358" parent="343" name="dateNaissanceParticipant">
       <Position>5</Position>
       <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="356" parent="343" name="numeroDePassage">
+    <column id="359" parent="343" name="numeroDePassage">
       <Position>6</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="357" parent="343" name="temps">
+    <column id="360" parent="343" name="temps">
       <Position>7</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="358" parent="344" name="nom">
+    <column id="361" parent="343" name="nomCategorie">
+      <Position>8</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="362" parent="344" name="nom">
       <Position>1</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>

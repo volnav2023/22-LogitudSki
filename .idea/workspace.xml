@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2a99e0e-fd15-48d8-b870-dea191191064" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Views/Templates/epreuve.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Templates/epreuve.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c9b90dd8-fbd0-4ddd-b552-1727068f1e75.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c9b90dd8-fbd0-4ddd-b552-1727068f1e75.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabaseCreationScript.sql" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseCreationScript.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatabasePopulationScript.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllers/EpreuveController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/EpreuveController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +170,7 @@
       <workItem from="1603185274644" duration="334000" />
       <workItem from="1603185774465" duration="30100000" />
       <workItem from="1603697878288" duration="24100000" />
-      <workItem from="1603784948191" duration="3765000" />
+      <workItem from="1603784948191" duration="7045000" />
     </task>
     <task id="LOCAL-00001" summary="phpunit-watcher installed and ok">
       <created>1602600781016</created>
@@ -286,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603810205774</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Display of epreuves works with a twig loop and formatted in a basic table, now need to do same for participants">
+      <created>1603810445626</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603810445626</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +332,8 @@
     <MESSAGE value="Affiche Liste Epreuves ok, sans interface." />
     <MESSAGE value="First display of epreuves via twig. Needs now loop, then scroll list etc..." />
     <MESSAGE value="Display of epreuves works with a twig loop, now needs to replace the dump." />
-    <option name="LAST_COMMIT_MESSAGE" value="Display of epreuves works with a twig loop, now needs to replace the dump." />
+    <MESSAGE value="Display of epreuves works with a twig loop and formatted in a basic table, now need to do same for participants" />
+    <option name="LAST_COMMIT_MESSAGE" value="Display of epreuves works with a twig loop and formatted in a basic table, now need to do same for participants" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-2448" y="150" key="#Plugins" timestamp="1603787761308">
@@ -379,12 +392,12 @@
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="2381" y="170" key="SettingsEditor/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1602600689324" />
-    <state x="-2448" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603810208124">
+    <state x="-2448" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603810448527">
       <screen x="-3000" y="0" width="1920" height="1050" />
     </state>
     <state x="-2448" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1019@-3000.0.1920.1019" timestamp="1603788023451" />
     <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1019@0.0.1920.1019" timestamp="1603449604944" />
-    <state x="-2448" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1603810208124" />
+    <state x="-2448" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1603810448527" />
     <state x="2472" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1019@1920.0.1920.1019" timestamp="1603717310375" />
     <state x="2472" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1019/3840.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1603097209426" />
     <state x="-2448" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1080.-829.1080.1890/-3000.0.1920.1050@-3000.0.1920.1050" timestamp="1603262366955" />

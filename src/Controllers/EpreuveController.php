@@ -12,24 +12,21 @@ class EpreuveController
     {
         $sql = 'SELECT * FROM `epreuve` WHERE 1';
 
-        $twigtest = new ConfigTwig();
+        $twig = new ConfigTwig();
 
-        $donnees = $dbase->query($sql);
-
-//        var_dump($donnees);
-//        var_dump($donnees [0]['lieu']);
-//        var_dump($donnees [0]['date']);
-
-//        $reponse = new Response($twigtest->twig->render('epreuve.html.twig', ['rang1'=> $dbase->query($sql)[1]] ));
-//        $reponse->send();
-//        $reponse = new Response($twigtest->twig->render('epreuve.html.twig', ['rang2'=> $dbase->query($sql)[2]] ));
-//        $reponse->send();
-        $reponse = new Response($twigtest->twig->render('epreuve.html.twig', ['donnees'=> $donnees] ));
+        $reponse = new Response($twig->twig->render('epreuve.html.twig', ['donnees' => $dbase->query($sql)]));
         $reponse->send();
     }
 
     public function participantsListe(Request $request, Dbase $dbase)
     {
+        $sql = "SELECT * FROM `passage` WHERE numeroDePassage = 0 AND lieuEpreuve = '" . $request->query->get('lieu')."'";
+        var_dump($sql);
+        $twig = new ConfigTwig();
+
+        $reponse = new Response($twig->twig->render('epreuve.html.twig', ['donnees' => $dbase->query($sql)]));
+        $reponse->send();
+
         dump(
             'EpreuveController->participantsListe affiche la liste des participants 
             pour l\'épreuve : ' .

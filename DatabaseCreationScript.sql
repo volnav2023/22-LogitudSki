@@ -95,3 +95,5 @@ INSERT INTO passage (lieuEpreuve, dateEpreuve, nomParticipant, prenomParticipant
 VALUES ('Pampelone','2025-04-01','Dynastar2','Madeleine2','1935-11-01',0,0,'Sénior');
 INSERT INTO passage (lieuEpreuve, dateEpreuve, nomParticipant, prenomParticipant, dateNaissanceParticipant, numeroDePassage, temps, nomCategorie)
 VALUES ('Pampelone','2025-04-01','Dynastar6','Madeleine6','1939-11-01',0,0,'Snow');
+
+SELECT * FROM passage WHERE numeroDePassage = 0 AND lieuEpreuve = 'Pampelone';
