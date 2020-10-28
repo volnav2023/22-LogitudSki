@@ -4,7 +4,7 @@ namespace App\Models;
 
 class Dbase
 {
-    private $pdo;
+    protected $pdo;
 
     public function open($serverName, $dbName, $userName, $password)
     {
@@ -20,6 +20,24 @@ class Dbase
 
     public function query($sqlQuery)
     {
-        return($this->pdo->query($sqlQuery)->fetchAll(\PDO::FETCH_ASSOC));
+        return ($this->pdo->query($sqlQuery)->fetchAll(\PDO::FETCH_ASSOC));
     }
+}
+
+class EpreuveModel
+{
+
+    private $dbase;
+
+    public function __construct($dbase)
+    {
+        $this->dbase = $dbase;
+    }
+
+    public function findAll()
+    {
+        $sql = 'SELECT * FROM `epreuve` WHERE TRUE';
+        return $this->dbase->query($sql);
+    }
+
 }

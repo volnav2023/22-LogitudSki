@@ -15,6 +15,8 @@ $dispatcher = FastRoute\simpleDispatcher(
     function (FastRoute\RouteCollector $r) {
         $r->addRoute('GET', '/epreuves', [new EpreuveController(), 'epreuvesListe']);
         $r->addRoute('GET', '/epreuves/{lieu}/{date}', [new EpreuveController(), 'participantsListe']);
+        $r->addRoute('GET', '/epreuves/ajouter', [new EpreuveController(), 'afficheForm']);
+        $r->addRoute('POST', '/epreuves/ajouter', [new EpreuveController(), 'ajouteEpreuve']);
         $r->addRoute('GET', '/22-LogitudSki/index/profils', ['App\ProfilController', 'profilsListe']);
         $r->addRoute('GET', '/22-LogitudSki/index/categories', ['App\CategorieController', 'categoriesListe']);
         $r->addRoute('GET', '/22-LogitudSki/index/participants', ['App\ParticipantController', 'participantsListe']);
