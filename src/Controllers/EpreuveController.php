@@ -10,7 +10,7 @@ class EpreuveController
 {
     public function epreuvesListe(Request $request, Dbase $dbase)
     {
-        $sql = 'SELECT * FROM `epreuve` WHERE 1';
+        $sql = 'SELECT * FROM `epreuve` WHERE TRUE';
 
         $twig = new ConfigTwig();
 
@@ -20,19 +20,13 @@ class EpreuveController
 
     public function participantsListe(Request $request, Dbase $dbase)
     {
-        $sql = "SELECT * FROM `passage` WHERE numeroDePassage = 0 AND lieuEpreuve = '" . $request->query->get('lieu')."'";
-        var_dump($sql);
+        $sql = "SELECT * FROM passage WHERE numeroDePassage = 0 AND lieuEpreuve = '" . $request->query->get(
+                'lieu'
+            ) . "' AND dateEpreuve = '" . $request->query->get('date') . "'";
+
         $twig = new ConfigTwig();
 
         $reponse = new Response($twig->twig->render('epreuve.html.twig', ['donnees' => $dbase->query($sql)]));
         $reponse->send();
-
-        dump(
-            'EpreuveController->participantsListe affiche la liste des participants 
-            pour l\'épreuve : ' .
-            $request->query->get('lieu') . '  ' .
-            $request->query->get('date')
-        );
-//        dump('$request : ', $request);
     }
 }
