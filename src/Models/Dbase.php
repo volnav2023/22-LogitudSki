@@ -26,7 +26,6 @@ class Dbase
 
 class EpreuveModel
 {
-
     private $dbase;
 
     public function __construct($dbase)
@@ -37,6 +36,13 @@ class EpreuveModel
     public function findAll()
     {
         $sql = 'SELECT * FROM `epreuve` WHERE TRUE';
+        return $this->dbase->query($sql);
+    }
+
+    public function findParticipants($lieu, $date)
+    {
+        $sql = "SELECT * FROM passage WHERE numeroDePassage = 0 AND lieuEpreuve = '" . $lieu
+            . "' AND dateEpreuve = '" . $date . "'";
         return $this->dbase->query($sql);
     }
 
